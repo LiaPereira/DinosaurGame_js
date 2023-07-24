@@ -20,6 +20,5 @@ var collisionDetection = setInterval(function(){
     if (rect_character.right > rect_block.left && rect_character.left < rect_block.right && rect_character.bottom > rect_block.top) {
         block.style.animation = "none";
         alert("you lost");
-    
     }
 }, 10);
