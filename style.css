@@ -11,7 +11,7 @@
 #character{
     width: 20px;
     height: 50px;
-    background-color: red;
+    background-color: green;
     position: relative;
     top: 150px;
     left: 50px;
@@ -25,14 +25,14 @@
     position: relative;
     top: 130px;
     left: 480px;
-    animation: block 2s infinite linear;
+    animation: move 4s infinite linear; 
 
 }
 
-@keyframes block{
+ @keyframes move{
     0%{left:480px;}
     100%{left:-480px;}
-}
+} 
 
 
     
